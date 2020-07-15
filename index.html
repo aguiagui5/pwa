@@ -20,9 +20,8 @@
 
 
         <link rel="stylesheet" href="css/styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="main.js"></script>
-        <script src="countdown.js"></script>
+
         
         
 
@@ -31,27 +30,99 @@
     <body>
 
 
+        <div class="container1">
 
-        <div class="container">
-
-
-            <div id="contenedor">
-                <!--cambiar ruta logo-->
-                <img src="logoempresa.jpg" />			
-                
-                <!--cambiar texto-->
-                <div id="textosuperior">
-                    Cambiar el texto superior
+            <div class='wrapper'>
+                <div class='time-part-wrapper'>
+                  <div class='time-part minutes tens'>
+                    <div class='digit-wrapper'>
+                      <span class='digit'>0</span>
+                      <span class='digit'>5</span>
+                      <span class='digit'>4</span>
+                      <span class='digit'>3</span>
+                      <span class='digit'>2</span>
+                      <span class='digit'>1</span>
+                      <span class='digit'>0</span>
+                    </div>
+                  </div>
+                  <div class='time-part minutes ones'>
+                    <div class='digit-wrapper'>
+                      <span class='digit'>0</span>
+                      <span class='digit'>9</span>
+                      <span class='digit'>8</span>
+                      <span class='digit'>7</span>
+                      <span class='digit'>6</span>
+                      <span class='digit'>5</span>
+                      <span class='digit'>4</span>
+                      <span class='digit'>3</span>
+                      <span class='digit'>2</span>
+                      <span class='digit'>1</span>
+                      <span class='digit'>0</span>
+                    </div>
+                  </div>
                 </div>
-    
-                <div id="countbox"></div>
-    
-                <!--cambiar texto-->
-                <div id="textoinferior">
-                    Cambiar el texto inferior
+                <div class='time-part-wrapper'>
+                  <div class='time-part seconds tens'>
+                    <div class='digit-wrapper'>
+                      <span class='digit'>0</span>
+                      <span class='digit'>5</span>
+                      <span class='digit'>4</span>
+                      <span class='digit'>3</span>
+                      <span class='digit'>2</span>
+                      <span class='digit'>1</span>
+                      <span class='digit'>0</span>
+                    </div>
+                  </div>
+                  <div class='time-part seconds ones'>
+                    <div class='digit-wrapper'>
+                      <span class='digit'>0</span>
+                      <span class='digit'>9</span>
+                      <span class='digit'>8</span>
+                      <span class='digit'>7</span>
+                      <span class='digit'>6</span>
+                      <span class='digit'>5</span>
+                      <span class='digit'>4</span>
+                      <span class='digit'>3</span>
+                      <span class='digit'>2</span>
+                      <span class='digit'>1</span>
+                      <span class='digit'>0</span>
+                    </div>
+                  </div>
                 </div>
-                
-            </div>
+                <div class='time-part-wrapper'>
+                  <div class='time-part hundredths tens'>
+                    <div class='digit-wrapper'>
+                      <span class='digit'>0</span>
+                      <span class='digit'>9</span>
+                      <span class='digit'>8</span>
+                      <span class='digit'>7</span>
+                      <span class='digit'>6</span>
+                      <span class='digit'>5</span>
+                      <span class='digit'>4</span>
+                      <span class='digit'>3</span>
+                      <span class='digit'>2</span>
+                      <span class='digit'>1</span>
+                      <span class='digit'>0</span>
+                    </div>
+                  </div>
+                  <div class='time-part hundredths ones'>
+                    <div class='digit-wrapper'>
+                      <span class='digit'>0</span>
+                      <span class='digit'>9</span>
+                      <span class='digit'>8</span>
+                      <span class='digit'>7</span>
+                      <span class='digit'>6</span>
+                      <span class='digit'>5</span>
+                      <span class='digit'>4</span>
+                      <span class='digit'>3</span>
+                      <span class='digit'>2</span>
+                      <span class='digit'>1</span>
+                      <span class='digit'>0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             
             <video  width="640" height="360" controls>
                 <source src="videos/video2.mp4" type="video/mp4">
@@ -61,9 +132,18 @@
             <br>
             <br>
 
-            <a href="videos/video2.mp4" type="video/mp4">
-                Video
-            </a>
+        
+
+            <form>
+            
+                <h3> Introducir Antídoto:
+                <input type="password" name="text1">
+                <input type="button" value="Validar" name="Submit" onclick=javascript:validate(text1.value,) >
+                </h3>
+                
+            </form>
+
+
 
         </div>
 
