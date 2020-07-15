@@ -1,0 +1,30 @@
+body{
+    background: white;
+    text-align:center;
+}
+
+#contenedor{
+    margin: 20px auto;
+    width: 600px;
+    text-align: center;
+}
+#textosuperior{
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 20px;
+    color: #f05152;
+}
+#countbox{
+    font-size: 30px;
+    font-family:Tahoma;
+    background: #f05152;
+    color: #fff;
+    padding: 10px 0;
+    margin: 20px auto 0;
+}
+#textoinferior{
+    font-size: 10px;
+    font-family: Arial;
+    margin-top: 20px;
+}
+

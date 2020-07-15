@@ -1,0 +1,22 @@
+{
+    "name": "La Caja",
+    "short_name": "Empezar",
+    "description": "App del Escapebox",
+    "background_color": "#FFF",
+    "theme_color": "black",
+    "orientation": "landscape",
+    "display": "standalone",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "scope":"./",
+    "lang": "es-Es",
+    "icons": [
+        {
+            "src": "./img/favicon.png",
+            "sizes": "1200x1200",
+            "type": "image/png"
+        }
+    ]
+
+}
+
+
